@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Riddle.anagram_riddle">
+
+
+    <Button
+      android:layout_margin="5dp"
+        android:background="@drawable/gradient"
+        style="@style/CustomButtonStyle2"
+        android:onClick="onClick"
+        android:id="@+id/btnRiddle1"
+        android:textSize="25dp"
+        android:text="Загадка №1"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:background="@drawable/gradient"
+        style="@style/CustomButtonStyle2"
+        android:onClick="onClick"
+        android:id="@+id/btnRiddle2"
+        android:textSize="25dp"
+        android:text="Загадка №2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:background="@drawable/gradient"
+        style="@style/CustomButtonStyle2"
+        android:onClick="onClick"
+        android:id="@+id/btnRiddle3"
+        android:textSize="25dp"
+        android:text="Загадка №3"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:background="@drawable/gradient"
+        style="@style/CustomButtonStyle2"
+        android:onClick="onClick"
+        android:id="@+id/btnRiddle4"
+        android:textSize="25dp"
+        android:text="Загадка №4"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:background="@drawable/gradient"
+        style="@style/CustomButtonStyle2"
+        android:onClick="onClick"
+        android:id="@+id/btnRiddle5"
+        android:textSize="25dp"
+        android:text="Загадка №5"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:background="@drawable/gradient"
+        style="@style/CustomButtonStyle2"
+        android:onClick="onClick"
+        android:id="@+id/btnRiddle6"
+        android:textSize="25dp"
+        android:text="Загадка №6"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:background="@drawable/gradient"
+        style="@style/CustomButtonStyle2"
+        android:onClick="onClick"
+        android:id="@+id/btnRiddle7"
+        android:textSize="25dp"
+        android:text="Загадка №7"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:background="@drawable/gradient"
+        style="@style/CustomButtonStyle2"
+        android:onClick="onClick"
+        android:id="@+id/btnRiddle8"
+        android:textSize="25dp"
+        android:text="Загадка №8"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

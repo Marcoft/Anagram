@@ -1,0 +1,1464 @@
+package com.example.puzzle.Campaign.CampaignMath;
+
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.puzzle.Campaign.CampaignMath.Buttons.ButtonsCampaign;
+import com.example.puzzle.Campaign.CampaignMath.Buttons7x7.Buttons7x7Campaign;
+import com.example.puzzle.Campaign.CampaignMath.Signs.SignsCampaign;
+import com.example.puzzle.Campaign.CampaignMath.TextQuestions.TextQuestionsCamplaign;
+import com.example.puzzle.Campaign.CampaignMath.picture.PictureCampaignMath;
+import com.example.puzzle.R;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
+public class MapLevel extends AppCompatActivity {
+
+    @BindView(R.id.btn) Button btn;
+    @BindView(R.id.btn2) Button btn2;
+    @BindView(R.id.btn3) Button btn3;
+    @BindView(R.id.btn4) Button btn4;
+    @BindView(R.id.btn5) Button btn5;
+    @BindView(R.id.btn6) Button btn6;
+    @BindView(R.id.btn7) Button btn7;
+    @BindView(R.id.btn8) Button btn8;
+    @BindView(R.id.btn9) Button btn9;
+    @BindView(R.id.btn10) Button btn10;
+    @BindView(R.id.btn11) Button btn11;
+    @BindView(R.id.btn12) Button btn12;
+    @BindView(R.id.btn13) Button btn13;
+    @BindView(R.id.btn14) Button btn14;
+    @BindView(R.id.btn15) Button btn15;
+    @BindView(R.id.btn16) Button btn16;
+    @BindView(R.id.btn17) Button btn17;
+    @BindView(R.id.btn18) Button btn18;
+    @BindView(R.id.btn19) Button btn19;
+    @BindView(R.id.btn20) Button btn20;
+    @BindView(R.id.btn21) Button btn21;
+    @BindView(R.id.btn22) Button btn22;
+    @BindView(R.id.btn23) Button btn23;
+    @BindView(R.id.btn24) Button btn24;
+    @BindView(R.id.btn25) Button btn25;
+    @BindView(R.id.btn26) Button btn26;
+    @BindView(R.id.btn27) Button btn27;
+    @BindView(R.id.btn28) Button btn28;
+    @BindView(R.id.btn29) Button btn29;
+    @BindView(R.id.btn30) Button btn30;
+    @BindView(R.id.btn31) Button btn31;
+    @BindView(R.id.btn32) Button btn32;
+    @BindView(R.id.btn33) Button btn33;
+    @BindView(R.id.btn34) Button btn34;
+    @BindView(R.id.btn35) Button btn35;
+    @BindView(R.id.btn36) Button btn36;
+    @BindView(R.id.btn37) Button btn37;
+    @BindView(R.id.btn38) Button btn38;
+    @BindView(R.id.btn39) Button btn39;
+    @BindView(R.id.btn40) Button btn40;
+    @BindView(R.id.btn41) Button btn41;
+    @BindView(R.id.btn42) Button btn42;
+    @BindView(R.id.btn43) Button btn43;
+    @BindView(R.id.btn44) Button btn44;
+    @BindView(R.id.btn45) Button btn45;
+    @BindView(R.id.btn46) Button btn46;
+    @BindView(R.id.btn47) Button btn47;
+    @BindView(R.id.btn48) Button btn48;
+    @BindView(R.id.btn49) Button btn49;
+    @BindView(R.id.btn50) Button btn50;
+    @BindView(R.id.btn51) Button btn51;
+    @BindView(R.id.btn52) Button btn52;
+    @BindView(R.id.btn53) Button btn53;
+    @BindView(R.id.btn54) Button btn54;
+    @BindView(R.id.btn55) Button btn55;
+    @BindView(R.id.btn56) Button btn56;
+    @BindView(R.id.btn57) Button btn57;
+    @BindView(R.id.btn58) Button btn58;
+    @BindView(R.id.btn59) Button btn59;
+    @BindView(R.id.btn60) Button btn60;
+    @BindView(R.id.btn61) Button btn61;
+    @BindView(R.id.btn62) Button btn62;
+    @BindView(R.id.btn63) Button btn63;
+    @BindView(R.id.btn64) Button btn64;
+    @BindView(R.id.btn65) Button btn65;
+    @BindView(R.id.btn66) Button btn66;
+    @BindView(R.id.btn67) Button btn67;
+    @BindView(R.id.btn68) Button btn68;
+    @BindView(R.id.btn69) Button btn69;
+    @BindView(R.id.btn70) Button btn70;
+    @BindView(R.id.btn71) Button btn71;
+    @BindView(R.id.btn72) Button btn72;
+    @BindView(R.id.btn73) Button btn73;
+    @BindView(R.id.btn74) Button btn74;
+    @BindView(R.id.btn75) Button btn75;
+    @BindView(R.id.btn76) Button btn76;
+    @BindView(R.id.btn77) Button btn77;
+    @BindView(R.id.btn78) Button btn78;
+    @BindView(R.id.btn79) Button btn79;
+    @BindView(R.id.btn80) Button btn80;
+    @BindView(R.id.btn81) Button btn81;
+    @BindView(R.id.btn82) Button btn82;
+    @BindView(R.id.btn83) Button btn83;
+    @BindView(R.id.btn84) Button btn84;
+    @BindView(R.id.btn85) Button btn85;
+    @BindView(R.id.btn86) Button btn86;
+    @BindView(R.id.btn87) Button btn87;
+    @BindView(R.id.btn88) Button btn88;
+    @BindView(R.id.btn89) Button btn89;
+    @BindView(R.id.btn90) Button btn90;
+    @BindView(R.id.btn91) Button btn91;
+    @BindView(R.id.btn92) Button btn92;
+    @BindView(R.id.btn93) Button btn93;
+    @BindView(R.id.btn94) Button btn94;
+    @BindView(R.id.btn95) Button btn95;
+    @BindView(R.id.btn96) Button btn96;
+    @BindView(R.id.btn97) Button btn97;
+    @BindView(R.id.btn98) Button btn98;
+    @BindView(R.id.btn99) Button btn99;
+    @BindView(R.id.btn100) Button btn100;
+    @BindView(R.id.btn101) Button btn101;
+    @BindView(R.id.btn102) Button btn102;
+    @BindView(R.id.btn103) Button btn103;
+    @BindView(R.id.btn104) Button btn104;
+    @BindView(R.id.btn105) Button btn105;
+    @BindView(R.id.btn106) Button btn106;
+    @BindView(R.id.btn107) Button btn107;
+    @BindView(R.id.btn108) Button btn108;
+    @BindView(R.id.btn109) Button btn109;
+    @BindView(R.id.btn110) Button btn110;
+
+
+    String block = "";
+    int money = 0;
+    int progress = 0;
+    String money_result = "" ;
+
+    SharedPreferences sharedPreferences;
+
+    SharedPreferences prefs;
+    SharedPreferences.Editor prefEdit;
+    boolean isClicked = false;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_map_level);
+        ButterKnife.bind(this);
+
+
+        Intent intent = getIntent();
+        if(intent!=null)
+        money = intent.getIntExtra("money", 0);
+
+        LoadPreferences();
+        isClicked = false;
+        SaveMoney();
+
+    }
+
+
+    private void resultAfterTest(String numb){
+
+       /* AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
+
+        dialogBuilder
+                .setCancelable(false)
+                .setPositiveButton("Следующий уровень",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                nextLevel();
+                                dialog.cancel();
+                            }
+                        })
+                .setNeutralButton("Закрыть",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                dialog.cancel();
+                            }
+                        });
+
+        LayoutInflater inflater = this.getLayoutInflater();
+
+        View dialogView = inflater.inflate(R.layout.activity_result_after_lvl_test, null);
+        dialogBuilder.setView(dialogView);
+
+        final TextView RightAnswer = (TextView) dialogView.findViewById(R.id.RightAnswer);
+
+        if(numb.equals("1")){
+            RightAnswer.setText("Яр");
+        } else  if(numb.equals("2")){
+            RightAnswer.setText("Лес");
+        }else  if(numb.equals("3")){
+            RightAnswer.setText("Бал");
+        }else  if(numb.equals("4")){
+            RightAnswer.setText("Ель");
+        }else  if(numb.equals("5")){
+            RightAnswer.setText("Ужас");
+        }else  if(numb.equals("6")){
+            RightAnswer.setText("Факт");
+        }else  if(numb.equals("7")){
+            RightAnswer.setText("Топь");
+        }else  if(numb.equals("8")){
+            RightAnswer.setText("Дочь");
+        }else  if(numb.equals("9")){
+            RightAnswer.setText("Итог");
+        }else  if(numb.equals("10")){
+            RightAnswer.setText("Цинк");
+        }else  if(numb.equals("11")){
+            RightAnswer.setText("Бокс");
+        }else  if(numb.equals("12")){
+            RightAnswer.setText("Блюз");
+        }else  if(numb.equals("13")){
+            RightAnswer.setText("Цель");
+        }else  if(numb.equals("14")){
+            RightAnswer.setText("Схема");
+        }else  if(numb.equals("15")){
+            RightAnswer.setText("Пират");
+        }else  if(numb.equals("16")){
+            RightAnswer.setText("Экран");
+        }else  if(numb.equals("17")){
+            RightAnswer.setText("Ствол");
+        }else  if(numb.equals("18")){
+            RightAnswer.setText("Талия");
+        }else  if(numb.equals("19")){
+            RightAnswer.setText("Мячик");
+        }else  if(numb.equals("20")){
+            RightAnswer.setText("Дробь");
+        }else  if(numb.equals("21")){
+            RightAnswer.setText("Тиски");
+        }else  if(numb.equals("22")){
+            RightAnswer.setText("Дрожь");
+        }else  if(numb.equals("23")){
+            RightAnswer.setText("Сушка");
+        }else  if(numb.equals("24")){
+            RightAnswer.setText("Гольф");
+        }else  if(numb.equals("25")){
+            RightAnswer.setText("Берет");
+        }else  if(numb.equals("26")){
+            RightAnswer.setText("Ларец");
+        }else  if(numb.equals("27")){
+            RightAnswer.setText("Арена");
+        }else  if(numb.equals("28")){
+            RightAnswer.setText("Вафля");
+        }else  if(numb.equals("29")){
+            RightAnswer.setText("Купол");
+        }else  if(numb.equals("30")){
+            RightAnswer.setText("Дверь");
+        }else  if(numb.equals("31")){
+            RightAnswer.setText("Альянс");
+        }else  if(numb.equals("32")){
+            RightAnswer.setText("Почерк");
+        }else  if(numb.equals("33")){
+            RightAnswer.setText("Офлайн");
+        }else  if(numb.equals("34")){
+            RightAnswer.setText("Алтарь");
+        }else  if(numb.equals("35")){
+            RightAnswer.setText("Дранье");
+        }else  if(numb.equals("36")){
+            RightAnswer.setText("Дворник");
+        }else  if(numb.equals("37")){
+            RightAnswer.setText("Мозаика");
+        }else  if(numb.equals("38")){
+            RightAnswer.setText("Дуршлаг");
+        }else  if(numb.equals("39")){
+            RightAnswer.setText("Виртуоз");
+        }else  if(numb.equals("40")){
+            RightAnswer.setText("Продюсер");
+        }else  if(numb.equals("41")){
+            RightAnswer.setText("Капучино");
+        }else  if(numb.equals("42")){
+            RightAnswer.setText("Кредитка");
+        }else  if(numb.equals("43")){
+            RightAnswer.setText("Бриллиант");
+        }else  if(numb.equals("44")){
+            RightAnswer.setText("Адреналин");
+        }else  if(numb.equals("45")){
+            RightAnswer.setText("Грейпфрут");
+        }else  if(numb.equals("46")){
+            RightAnswer.setText("Чугуновоз");
+        }else  if(numb.equals("47")){
+            RightAnswer.setText("Авитаминоз");
+        }else  if(numb.equals("48")){
+            RightAnswer.setText("Бензопровод");
+        }else  if(numb.equals("49")){
+            RightAnswer.setText("Автомобилист");
+        }else  if(numb.equals("50")){
+            RightAnswer.setText("Свидетельница");
+        }
+
+        dialogBuilder.create().show();*/
+
+    }
+
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if(data == null){
+            return;
+        }
+
+        money_result = data.getStringExtra("money_result");
+        money = Integer.parseInt(money_result);
+        SaveMoney();
+
+        sharedPreferences = getPreferences(MODE_PRIVATE);
+        block = data.getStringExtra("block");
+        switch (block) {
+            case "0":
+                break;
+            case "1":
+                //btn.setBackgroundColor(Color.GREEN);
+                progress = 1;
+                btn.setClickable(true);
+                btn.setEnabled(true);
+
+                btn2.setEnabled(true);
+                btn2.setClickable(true);
+
+                resultAfterTest("1");
+
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putBoolean("state", btn.isClickable());
+                editor.putBoolean("Next", btn2.isClickable());
+                editor.apply();
+
+                break;
+            case "2":
+                //btn2.setBackgroundColor(Color.GREEN);
+                progress = 2;
+                btn2.setClickable(true);
+                btn2.setEnabled(true);
+
+                btn3.setEnabled(true);
+                btn3.setClickable(true);
+
+                resultAfterTest("2");
+
+                SharedPreferences.Editor editor2 = sharedPreferences.edit();
+                editor2.putBoolean("state2", btn2.isClickable());
+                editor2.putBoolean("Next2", btn3.isClickable());
+                editor2.apply();
+                break;
+            case "3":
+                // btn3.setBackgroundColor(Color.GREEN);
+                progress = 3;
+                btn3.setClickable(true);
+                btn3.setEnabled(true);
+
+                btn4.setEnabled(true);
+                btn4.setClickable(true);
+
+                resultAfterTest("3");
+
+                SharedPreferences.Editor editor3 = sharedPreferences.edit();
+                editor3.putBoolean("state3", btn3.isClickable());
+                editor3.putBoolean("Next3", btn4.isClickable());
+                editor3.apply();
+                break;
+            case "4":
+                //btn4.setBackgroundColor(Color.GREEN);
+                progress = 4;
+                btn4.setClickable(true);
+                btn4.setEnabled(true);
+
+                btn5.setEnabled(true);
+                btn5.setClickable(true);
+
+                resultAfterTest("4");
+
+                SharedPreferences.Editor editor4 = sharedPreferences.edit();
+                editor4.putBoolean("state4", btn4.isClickable());
+                editor4.putBoolean("Next4", btn5.isClickable());
+                editor4.apply();
+                break;
+            case "5":
+                //btn5.setBackgroundColor(Color.GREEN);
+                progress = 5;
+                btn5.setClickable(true);
+                btn5.setEnabled(true);
+
+                btn6.setEnabled(true);
+                btn6.setClickable(true);
+
+                resultAfterTest("5");
+
+                SharedPreferences.Editor editor5 = sharedPreferences.edit();
+                editor5.putBoolean("state5", btn5.isClickable());
+                editor5.putBoolean("Next5", btn6.isClickable());
+                editor5.apply();
+                break;
+            case "6":
+                //btn6.setBackgroundColor(Color.GREEN);
+                progress = 12;
+                btn6.setClickable(true);
+                btn6.setEnabled(true);
+
+                btn7.setEnabled(true);
+                btn7.setClickable(true);
+
+                resultAfterTest("6");
+
+                SharedPreferences.Editor editor6 = sharedPreferences.edit();
+                editor6.putBoolean("state6", btn6.isClickable());
+                editor6.putBoolean("Next6", btn7.isClickable());
+                editor6.apply();
+                break;
+            case "7":
+                progress = 7;
+                btn7.setClickable(true);
+                btn7.setEnabled(true);
+
+                btn8.setEnabled(true);
+                btn8.setClickable(true);
+
+                resultAfterTest("7");
+
+                SharedPreferences.Editor editor7 = sharedPreferences.edit();
+                editor7.putBoolean("state7", btn7.isClickable());
+                editor7.putBoolean("Next7", btn8.isClickable());
+                editor7.apply();
+                break;
+            case "8":
+                progress = 8;
+                btn8.setClickable(true);
+                btn8.setEnabled(true);
+
+                btn9.setEnabled(true);
+                btn9.setClickable(true);
+
+                resultAfterTest("8");
+
+                SharedPreferences.Editor editor8 = sharedPreferences.edit();
+                editor8.putBoolean("state8", btn8.isClickable());
+                editor8.putBoolean("Next8", btn9.isClickable());
+                editor8.apply();
+                break;
+            case "9":
+                progress = 9;
+                btn9.setClickable(true);
+                btn9.setEnabled(true);
+
+                btn10.setEnabled(true);
+                btn10.setClickable(true);
+
+                resultAfterTest("9");
+
+                SharedPreferences.Editor editor9 = sharedPreferences.edit();
+                editor9.putBoolean("state9", btn9.isClickable());
+                editor9.putBoolean("Next9", btn10.isClickable());
+                editor9.apply();
+                break;
+            case "10":
+                progress = 10;
+                btn10.setClickable(true);
+                btn10.setEnabled(true);
+
+                btn11.setEnabled(true);
+                btn11.setClickable(true);
+
+                resultAfterTest("10");
+
+                SharedPreferences.Editor editor10 = sharedPreferences.edit();
+                editor10.putBoolean("state10", btn10.isClickable());
+                editor10.putBoolean("Next10", btn11.isClickable());
+                editor10.apply();
+                break;
+            case "11":
+                // btn11.setBackgroundColor(Color.GREEN);
+                progress = 11;
+                btn11.setClickable(true);
+                btn11.setEnabled(true);
+
+                btn12.setEnabled(true);
+                btn12.setClickable(true);
+
+                resultAfterTest("11");
+
+                SharedPreferences.Editor editor11 = sharedPreferences.edit();
+                editor11.putBoolean("state11", btn11.isClickable());
+                editor11.putBoolean("Next11", btn12.isClickable());
+                editor11.apply();
+                break;
+            case "12":
+                progress = 12;
+                btn12.setClickable(true);
+                btn12.setEnabled(true);
+
+                btn13.setEnabled(true);
+                btn13.setClickable(true);
+
+                resultAfterTest("12");
+
+                SharedPreferences.Editor editor12 = sharedPreferences.edit();
+                editor12.putBoolean("state12", btn12.isClickable());
+                editor12.putBoolean("Next12", btn13.isClickable());
+                editor12.apply();
+                break;
+            case "13":
+                progress = 13;
+                btn13.setClickable(true);
+                btn13.setEnabled(true);
+
+                btn14.setEnabled(true);
+                btn14.setClickable(true);
+
+                resultAfterTest("13");
+
+                SharedPreferences.Editor editor13 = sharedPreferences.edit();
+                editor13.putBoolean("state13", btn13.isClickable());
+                editor13.putBoolean("Next13", btn14.isClickable());
+                editor13.apply();
+                break;
+            case "14":
+                progress = 14;
+                btn14.setClickable(true);
+                btn14.setEnabled(true);
+
+                btn15.setEnabled(true);
+                btn15.setClickable(true);
+
+                resultAfterTest("14");
+
+                SharedPreferences.Editor editor14 = sharedPreferences.edit();
+                editor14.putBoolean("state14", btn14.isClickable());
+                editor14.putBoolean("Next14", btn15.isClickable());
+                editor14.apply();
+                break;
+            case "15":
+                progress = 15;
+                btn15.setClickable(true);
+                btn15.setEnabled(true);
+
+                btn16.setEnabled(true);
+                btn16.setClickable(true);
+
+                resultAfterTest("15");
+
+                SharedPreferences.Editor editor15 = sharedPreferences.edit();
+                editor15.putBoolean("state15", btn15.isClickable());
+                editor15.putBoolean("Next15", btn16.isClickable());
+                editor15.apply();
+                break;
+            case "16":
+                // btn16.setBackgroundColor(Color.GREEN);
+                progress = 16;
+                btn16.setClickable(true);
+                btn16.setEnabled(true);
+
+                btn17.setEnabled(true);
+                btn17.setClickable(true);
+
+                resultAfterTest("16");
+
+                SharedPreferences.Editor editor16 = sharedPreferences.edit();
+                editor16.putBoolean("state16", btn16.isClickable());
+                editor16.putBoolean("Next16", btn17.isClickable());
+                editor16.apply();
+                break;
+            case "17":
+                progress = 17;
+                btn17.setClickable(true);
+                btn17.setEnabled(true);
+
+                btn18.setEnabled(true);
+                btn18.setClickable(true);
+
+                resultAfterTest("17");
+
+                SharedPreferences.Editor editor17 = sharedPreferences.edit();
+                editor17.putBoolean("state17", btn17.isClickable());
+                editor17.putBoolean("Next17", btn18.isClickable());
+                editor17.apply();
+                break;
+            case "18":
+                progress = 18;
+                btn18.setClickable(true);
+                btn18.setEnabled(true);
+
+                btn19.setEnabled(true);
+                btn19.setClickable(true);
+
+                resultAfterTest("18");
+
+                SharedPreferences.Editor editor18 = sharedPreferences.edit();
+                editor18.putBoolean("state18", btn18.isClickable());
+                editor18.putBoolean("Next18", btn19.isClickable());
+                editor18.apply();
+                break;
+            case "19":
+                progress = 19;
+                btn19.setClickable(true);
+                btn19.setEnabled(true);
+
+                btn20.setEnabled(true);
+                btn20.setClickable(true);
+
+                resultAfterTest("19");
+
+                SharedPreferences.Editor editor19 = sharedPreferences.edit();
+                editor19.putBoolean("state19", btn19.isClickable());
+                editor19.putBoolean("Next19", btn20.isClickable());
+                editor19.apply();
+                break;
+            case "20":
+                progress = 20;
+                btn20.setClickable(true);
+                btn20.setEnabled(true);
+
+                btn21.setEnabled(true);
+                btn21.setClickable(true);
+
+                resultAfterTest("20");
+
+                SharedPreferences.Editor editor20 = sharedPreferences.edit();
+                editor20.putBoolean("state20", btn20.isClickable());
+                editor20.putBoolean("Next20", btn21.isClickable());
+                editor20.apply();
+                break;
+            case "21":
+                // btn21.setBackgroundColor(Color.GREEN);
+                progress = 21;
+                btn21.setClickable(true);
+                btn21.setEnabled(true);
+
+                btn22.setEnabled(true);
+                btn22.setClickable(true);
+
+                resultAfterTest("21");
+
+                SharedPreferences.Editor editor21 = sharedPreferences.edit();
+                editor21.putBoolean("state21", btn21.isClickable());
+                editor21.putBoolean("Next21", btn22.isClickable());
+                editor21.apply();
+                break;
+            case "22":
+                progress = 22;
+                btn22.setClickable(true);
+                btn22.setEnabled(true);
+
+                btn23.setEnabled(true);
+                btn23.setClickable(true);
+
+                resultAfterTest("22");
+
+                SharedPreferences.Editor editor22 = sharedPreferences.edit();
+                editor22.putBoolean("state22", btn22.isClickable());
+                editor22.putBoolean("Next22", btn23.isClickable());
+                editor22.apply();
+                break;
+            case "23":
+                progress = 23;
+                btn23.setClickable(true);
+                btn23.setEnabled(true);
+
+                btn24.setEnabled(true);
+                btn24.setClickable(true);
+
+                resultAfterTest("23");
+
+                SharedPreferences.Editor editor23 = sharedPreferences.edit();
+                editor23.putBoolean("state23", btn23.isClickable());
+                editor23.putBoolean("Next23", btn24.isClickable());
+                editor23.apply();
+                break;
+            case "24":
+                progress = 24;
+                btn24.setClickable(true);
+                btn24.setEnabled(true);
+
+                btn25.setEnabled(true);
+                btn25.setClickable(true);
+
+                resultAfterTest("24");
+
+                SharedPreferences.Editor editor24 = sharedPreferences.edit();
+                editor24.putBoolean("state24", btn24.isClickable());
+                editor24.putBoolean("Next24", btn25.isClickable());
+                editor24.apply();
+                break;
+            case "25":
+                progress = 25;
+                btn25.setClickable(true);
+                btn25.setEnabled(true);
+
+                btn26.setEnabled(true);
+                btn26.setClickable(true);
+
+                resultAfterTest("25");
+
+                SharedPreferences.Editor editor25 = sharedPreferences.edit();
+                editor25.putBoolean("state25", btn25.isClickable());
+                editor25.putBoolean("Next25", btn26.isClickable());
+                editor25.apply();
+                break;
+            case "26":
+                //btn26.setBackgroundColor(Color.GREEN);
+                progress = 52;
+                btn26.setClickable(true);
+                btn26.setEnabled(true);
+
+                btn27.setEnabled(true);
+                btn27.setClickable(true);
+
+                resultAfterTest("26");
+
+                SharedPreferences.Editor editor26 = sharedPreferences.edit();
+                editor26.putBoolean("state26", btn26.isClickable());
+                editor26.putBoolean("Next26", btn27.isClickable());
+                editor26.apply();
+                break;
+            case "27":
+                progress = 27;
+                btn27.setClickable(true);
+                btn27.setEnabled(true);
+
+                btn28.setEnabled(true);
+                btn28.setClickable(true);
+
+                resultAfterTest("27");
+
+                SharedPreferences.Editor editor27 = sharedPreferences.edit();
+                editor27.putBoolean("state27", btn27.isClickable());
+                editor27.putBoolean("Next27", btn28.isClickable());
+                editor27.apply();
+                break;
+            case "28":
+                progress = 28;
+                btn28.setClickable(true);
+                btn28.setEnabled(true);
+
+                btn29.setEnabled(true);
+                btn29.setClickable(true);
+
+                resultAfterTest("28");
+
+                SharedPreferences.Editor editor28 = sharedPreferences.edit();
+                editor28.putBoolean("state28", btn28.isClickable());
+                editor28.putBoolean("Next28", btn29.isClickable());
+                editor28.apply();
+                break;
+            case "29":
+                progress = 29;
+                btn29.setClickable(true);
+                btn29.setEnabled(true);
+
+                btn30.setEnabled(true);
+                btn30.setClickable(true);
+
+                resultAfterTest("29");
+
+                SharedPreferences.Editor editor29 = sharedPreferences.edit();
+                editor29.putBoolean("state29", btn29.isClickable());
+                editor29.putBoolean("Next29", btn30.isClickable());
+                editor29.apply();
+                break;
+            case "30":
+                progress = 30;
+                btn30.setClickable(true);
+                btn30.setEnabled(true);
+
+                btn31.setEnabled(true);
+                btn31.setClickable(true);
+
+                resultAfterTest("30");
+
+                SharedPreferences.Editor editor30 = sharedPreferences.edit();
+                editor30.putBoolean("state30", btn30.isClickable());
+                editor30.putBoolean("Next30", btn31.isClickable());
+                editor30.apply();
+                break;
+            case "31":
+                //btn31.setBackgroundColor(Color.GREEN);
+                progress = 31;
+                btn31.setClickable(true);
+                btn31.setEnabled(true);
+
+                btn32.setEnabled(true);
+                btn32.setClickable(true);
+
+                resultAfterTest("31");
+
+                SharedPreferences.Editor editor31 = sharedPreferences.edit();
+                editor31.putBoolean("state31", btn31.isClickable());
+                editor31.putBoolean("Nex31", btn32.isClickable());
+                editor31.apply();
+                break;
+            case "32":
+                progress = 32;
+                btn32.setClickable(true);
+                btn32.setEnabled(true);
+
+                btn33.setEnabled(true);
+                btn33.setClickable(true);
+
+                resultAfterTest("32");
+
+                SharedPreferences.Editor editor32 = sharedPreferences.edit();
+                editor32.putBoolean("state32", btn32.isClickable());
+                editor32.putBoolean("Next32", btn33.isClickable());
+                editor32.apply();
+                break;
+            case "33":
+                progress = 33;
+                btn33.setClickable(true);
+                btn33.setEnabled(true);
+
+                btn34.setEnabled(true);
+                btn34.setClickable(true);
+
+                resultAfterTest("33");
+
+                SharedPreferences.Editor editor33 = sharedPreferences.edit();
+                editor33.putBoolean("state33", btn33.isClickable());
+                editor33.putBoolean("Next33", btn34.isClickable());
+                editor33.apply();
+                break;
+            case "34":
+                progress = 34;
+                btn34.setClickable(true);
+                btn34.setEnabled(true);
+
+                btn35.setEnabled(true);
+                btn35.setClickable(true);
+
+                resultAfterTest("34");
+
+                SharedPreferences.Editor editor34 = sharedPreferences.edit();
+                editor34.putBoolean("state34", btn34.isClickable());
+                editor34.putBoolean("Next34", btn35.isClickable());
+                editor34.apply();
+                break;
+            case "35":
+                progress = 35;
+                btn35.setClickable(true);
+                btn35.setEnabled(true);
+
+                btn36.setEnabled(true);
+                btn36.setClickable(true);
+
+                resultAfterTest("35");
+
+                SharedPreferences.Editor editor35 = sharedPreferences.edit();
+                editor35.putBoolean("state35", btn35.isClickable());
+                editor35.putBoolean("Next35", btn36.isClickable());
+                editor35.apply();
+                break;
+            case "36":
+                //btn36.setBackgroundColor(Color.GREEN);
+                progress = 36;
+                btn36.setClickable(true);
+                btn36.setEnabled(true);
+
+                btn37.setEnabled(true);
+                btn37.setClickable(true);
+
+                resultAfterTest("36");
+
+                SharedPreferences.Editor editor36 = sharedPreferences.edit();
+                editor36.putBoolean("state36", btn36.isClickable());
+                editor36.putBoolean("Next36", btn37.isClickable());
+                editor36.apply();
+                break;
+            case "37":
+                progress = 37;
+                btn37.setClickable(true);
+                btn37.setEnabled(true);
+
+                btn38.setEnabled(true);
+                btn38.setClickable(true);
+
+                resultAfterTest("37");
+
+                SharedPreferences.Editor editor37 = sharedPreferences.edit();
+                editor37.putBoolean("state37", btn37.isClickable());
+                editor37.putBoolean("Next37", btn38.isClickable());
+                editor37.apply();
+                break;
+            case "38":
+                progress = 38;
+                btn38.setClickable(true);
+                btn38.setEnabled(true);
+
+                btn39.setEnabled(true);
+                btn39.setClickable(true);
+
+                resultAfterTest("38");
+
+                SharedPreferences.Editor editor38 = sharedPreferences.edit();
+                editor38.putBoolean("state38", btn38.isClickable());
+                editor38.putBoolean("Next38", btn39.isClickable());
+                editor38.apply();
+                break;
+            case "39":
+                progress = 39;
+                btn39.setClickable(true);
+                btn39.setEnabled(true);
+
+                btn40.setEnabled(true);
+                btn40.setClickable(true);
+
+                resultAfterTest("39");
+
+                SharedPreferences.Editor editor39 = sharedPreferences.edit();
+                editor39.putBoolean("state39", btn39.isClickable());
+                editor39.putBoolean("Next39", btn40.isClickable());
+                editor39.apply();
+                break;
+            case "40":
+                progress = 40;
+                btn40.setClickable(true);
+                btn40.setEnabled(true);
+
+                btn41.setEnabled(true);
+                btn41.setClickable(true);
+
+                resultAfterTest("40");
+
+                SharedPreferences.Editor editor40 = sharedPreferences.edit();
+                editor40.putBoolean("state40", btn40.isClickable());
+                editor40.putBoolean("Next40", btn41.isClickable());
+                editor40.apply();
+                break;
+            case "41":
+                //btn41.setBackgroundColor(Color.GREEN);
+                progress = 41;
+                btn41.setClickable(true);
+                btn41.setEnabled(true);
+
+                btn42.setEnabled(true);
+                btn42.setClickable(true);
+
+                resultAfterTest("41");
+
+                SharedPreferences.Editor editor41 = sharedPreferences.edit();
+                editor41.putBoolean("state41", btn41.isClickable());
+                editor41.putBoolean("Next41", btn42.isClickable());
+                editor41.apply();
+                break;
+            case "42":
+                progress = 42;
+                btn42.setClickable(true);
+                btn42.setEnabled(true);
+
+                btn43.setEnabled(true);
+                btn43.setClickable(true);
+
+                resultAfterTest("42");
+
+                SharedPreferences.Editor editor42 = sharedPreferences.edit();
+                editor42.putBoolean("state42", btn42.isClickable());
+                editor42.putBoolean("Next42", btn43.isClickable());
+                editor42.apply();
+                break;
+            case "43":
+                progress = 43;
+                btn43.setClickable(true);
+                btn43.setEnabled(true);
+
+                btn44.setEnabled(true);
+                btn44.setClickable(true);
+
+                resultAfterTest("43");
+
+                SharedPreferences.Editor editor43 = sharedPreferences.edit();
+                editor43.putBoolean("state43", btn43.isClickable());
+                editor43.putBoolean("Next43", btn44.isClickable());
+                editor43.apply();
+                break;
+            case "44":
+                progress = 44;
+                btn44.setClickable(true);
+                btn44.setEnabled(true);
+
+                btn45.setEnabled(true);
+                btn45.setClickable(true);
+
+                resultAfterTest("44");
+
+                SharedPreferences.Editor editor44 = sharedPreferences.edit();
+                editor44.putBoolean("state44", btn44.isClickable());
+                editor44.putBoolean("Next44", btn45.isClickable());
+                editor44.apply();
+                break;
+            case "45":
+                progress = 45;
+                btn45.setClickable(true);
+                btn45.setEnabled(true);
+
+                btn46.setEnabled(true);
+                btn46.setClickable(true);
+
+                resultAfterTest("45");
+
+                SharedPreferences.Editor editor45 = sharedPreferences.edit();
+                editor45.putBoolean("state45", btn45.isClickable());
+                editor45.putBoolean("Next45", btn46.isClickable());
+                editor45.apply();
+                break;
+            case "46":
+                // btn46.setBackgroundColor(Color.GREEN);
+                progress = 46;
+                btn46.setClickable(true);
+                btn46.setEnabled(true);
+
+                btn47.setEnabled(true);
+                btn47.setClickable(true);
+
+                resultAfterTest("46");
+
+                SharedPreferences.Editor editor46 = sharedPreferences.edit();
+                editor46.putBoolean("state46", btn46.isClickable());
+                editor46.putBoolean("Next46", btn47.isClickable());
+                editor46.apply();
+                break;
+            case "47":
+                progress = 47;
+                btn47.setClickable(true);
+                btn47.setEnabled(true);
+
+                btn48.setEnabled(true);
+                btn48.setClickable(true);
+
+                resultAfterTest("47");
+
+                SharedPreferences.Editor editor47 = sharedPreferences.edit();
+                editor47.putBoolean("state47", btn47.isClickable());
+                editor47.putBoolean("Next47", btn48.isClickable());
+                editor47.apply();
+                break;
+            case "48":
+                progress = 48;
+                btn48.setClickable(true);
+                btn48.setEnabled(true);
+
+                btn49.setEnabled(true);
+                btn49.setClickable(true);
+
+                resultAfterTest("48");
+
+                SharedPreferences.Editor editor48 = sharedPreferences.edit();
+                editor48.putBoolean("state48", btn48.isClickable());
+                editor48.putBoolean("Next48", btn49.isClickable());
+                editor48.apply();
+                break;
+            case "49":
+                progress = 49;
+                btn49.setClickable(true);
+                btn49.setEnabled(true);
+
+                btn50.setEnabled(true);
+                btn50.setClickable(true);
+
+                resultAfterTest("49");
+
+                SharedPreferences.Editor editor49 = sharedPreferences.edit();
+                editor49.putBoolean("state49", btn49.isClickable());
+                editor49.putBoolean("Next49", btn50.isClickable());
+                editor49.apply();
+                break;
+            case "50":
+                progress = 50;
+                btn50.setClickable(true);
+                btn50.setEnabled(true);
+
+                btn51.setEnabled(true);
+                btn51.setClickable(true);
+
+                resultAfterTest("50");
+
+                SharedPreferences.Editor editor50 = sharedPreferences.edit();
+                editor50.putBoolean("state50", btn50.isClickable());
+                editor50.putBoolean("Next50", btn51.isClickable());
+                editor50.apply();
+                break;
+            case "51":
+                // btn46.setBackgroundColor(Color.GREEN);
+                progress = 51;
+                btn51.setClickable(true);
+                btn51.setEnabled(true);
+
+                btn52.setEnabled(true);
+                btn52.setClickable(true);
+
+                resultAfterTest("51");
+
+                SharedPreferences.Editor editor51 = sharedPreferences.edit();
+                editor51.putBoolean("state51", btn51.isClickable());
+                editor51.putBoolean("Next51", btn52.isClickable());
+                editor51.apply();
+                break;
+            case "52":
+                progress = 52;
+                btn52.setClickable(true);
+                btn52.setEnabled(true);
+
+                btn53.setEnabled(true);
+                btn53.setClickable(true);
+
+                resultAfterTest("52");
+
+                SharedPreferences.Editor editor52 = sharedPreferences.edit();
+                editor52.putBoolean("state52", btn52.isClickable());
+                editor52.putBoolean("Next52", btn53.isClickable());
+                editor52.apply();
+                break;
+            case "53":
+                progress = 53;
+                btn53.setClickable(true);
+                btn53.setEnabled(true);
+
+                btn54.setEnabled(true);
+                btn54.setClickable(true);
+
+                resultAfterTest("53");
+
+                SharedPreferences.Editor editor53 = sharedPreferences.edit();
+                editor53.putBoolean("state53", btn53.isClickable());
+                editor53.putBoolean("Next53", btn54.isClickable());
+                editor53.apply();
+                break;
+            case "54":
+                progress = 54;
+                btn54.setClickable(true);
+                btn54.setEnabled(true);
+
+                btn55.setEnabled(true);
+                btn55.setClickable(true);
+
+                resultAfterTest("54");
+
+                SharedPreferences.Editor editor54 = sharedPreferences.edit();
+                editor54.putBoolean("state54", btn54.isClickable());
+                editor54.putBoolean("Next54", btn55.isClickable());
+                editor54.apply();
+                break;
+            case "55":
+                progress = 55;
+                btn55.setClickable(true);
+                btn55.setEnabled(true);
+
+                btn56.setEnabled(true);
+                btn56.setClickable(true);
+
+                resultAfterTest("55");
+
+                SharedPreferences.Editor editor55 = sharedPreferences.edit();
+                editor55.putBoolean("state55", btn55.isClickable());
+                editor55.putBoolean("Next55", btn56.isClickable());
+                editor55.apply();
+                break;
+            case "56":
+                // btn46.setBackgroundColor(Color.GREEN);
+                progress = 56;
+                btn56.setClickable(true);
+                btn56.setEnabled(true);
+
+                btn57.setEnabled(true);
+                btn57.setClickable(true);
+
+                resultAfterTest("56");
+
+                SharedPreferences.Editor editor56 = sharedPreferences.edit();
+                editor56.putBoolean("state56", btn56.isClickable());
+                editor56.putBoolean("Next56", btn57.isClickable());
+                editor56.apply();
+                break;
+            case "57":
+                progress = 57;
+                btn57.setClickable(true);
+                btn57.setEnabled(true);
+
+                btn58.setEnabled(true);
+                btn58.setClickable(true);
+
+                resultAfterTest("57");
+
+                SharedPreferences.Editor editor57 = sharedPreferences.edit();
+                editor57.putBoolean("state57", btn57.isClickable());
+                editor57.putBoolean("Next57", btn58.isClickable());
+                editor57.apply();
+                break;
+            case "58":
+                progress = 58;
+                btn58.setClickable(true);
+                btn58.setEnabled(true);
+
+                btn59.setEnabled(true);
+                btn59.setClickable(true);
+
+                resultAfterTest("58");
+
+                SharedPreferences.Editor editor58 = sharedPreferences.edit();
+                editor58.putBoolean("state58", btn58.isClickable());
+                editor58.putBoolean("Next58", btn59.isClickable());
+                editor58.apply();
+                break;
+            case "59":
+                progress = 59;
+                btn59.setClickable(true);
+                btn59.setEnabled(true);
+
+                btn60.setEnabled(true);
+                btn60.setClickable(true);
+
+                resultAfterTest("59");
+
+                SharedPreferences.Editor editor59 = sharedPreferences.edit();
+                editor59.putBoolean("state59", btn59.isClickable());
+                editor59.putBoolean("Next59", btn60.isClickable());
+                editor59.apply();
+                break;
+            case "60":
+                progress = 60;
+                btn60.setClickable(true);
+                btn60.setEnabled(true);
+
+                btn61.setEnabled(true);
+                btn61.setClickable(true);
+
+                resultAfterTest("60");
+
+                SharedPreferences.Editor editor60 = sharedPreferences.edit();
+                editor60.putBoolean("state60", btn60.isClickable());
+                editor60.putBoolean("Next60", btn61.isClickable());
+                editor60.apply();
+                break;
+            case "61":
+                // btn46.setBackgroundColor(Color.GREEN);
+                progress = 61;
+                btn61.setClickable(true);
+                btn61.setEnabled(true);
+
+                btn62.setEnabled(true);
+                btn62.setClickable(true);
+
+                resultAfterTest("61");
+
+                SharedPreferences.Editor editor61 = sharedPreferences.edit();
+                editor61.putBoolean("state61", btn61.isClickable());
+                editor61.putBoolean("Next61", btn62.isClickable());
+                editor61.apply();
+                break;
+            case "62":
+                progress = 62;
+                btn62.setClickable(true);
+                btn62.setEnabled(true);
+
+                btn63.setEnabled(true);
+                btn63.setClickable(true);
+
+                resultAfterTest("62");
+
+                SharedPreferences.Editor editor62 = sharedPreferences.edit();
+                editor62.putBoolean("state62", btn62.isClickable());
+                editor62.putBoolean("Next62", btn63.isClickable());
+                editor62.apply();
+                break;
+            case "63":
+                progress = 63;
+                btn63.setClickable(true);
+                btn63.setEnabled(true);
+
+                btn64.setEnabled(true);
+                btn64.setClickable(true);
+
+                resultAfterTest("63");
+
+                SharedPreferences.Editor editor63 = sharedPreferences.edit();
+                editor63.putBoolean("state63", btn63.isClickable());
+                editor63.putBoolean("Next63", btn64.isClickable());
+                editor63.apply();
+                break;
+            case "64":
+                progress = 64;
+                btn64.setClickable(true);
+                btn64.setEnabled(true);
+
+                btn65.setEnabled(true);
+                btn65.setClickable(true);
+
+                resultAfterTest("64");
+
+                SharedPreferences.Editor editor64 = sharedPreferences.edit();
+                editor64.putBoolean("state64", btn64.isClickable());
+                editor64.putBoolean("Next64", btn65.isClickable());
+                editor64.apply();
+                break;
+            case "65":
+                progress = 65;
+                btn65.setClickable(true);
+                btn65.setEnabled(true);
+
+                btn66.setEnabled(true);
+                btn66.setClickable(true);
+
+                resultAfterTest("65");
+
+                SharedPreferences.Editor editor65 = sharedPreferences.edit();
+                editor65.putBoolean("state65", btn65.isClickable());
+                editor65.putBoolean("Next65", btn66.isClickable());
+                editor65.apply();
+                break;
+            case "66":
+                // btn46.setBackgroundColor(Color.GREEN);
+                progress = 66;
+                btn66.setClickable(true);
+                btn66.setEnabled(true);
+
+                btn67.setEnabled(true);
+                btn67.setClickable(true);
+
+                resultAfterTest("66");
+
+                SharedPreferences.Editor editor66 = sharedPreferences.edit();
+                editor66.putBoolean("state66", btn66.isClickable());
+                editor66.putBoolean("Next66", btn67.isClickable());
+                editor66.apply();
+                break;
+            case "67":
+                progress = 67;
+                btn67.setClickable(true);
+                btn67.setEnabled(true);
+
+                btn68.setEnabled(true);
+                btn68.setClickable(true);
+
+                resultAfterTest("67");
+
+                SharedPreferences.Editor editor67 = sharedPreferences.edit();
+                editor67.putBoolean("state67", btn67.isClickable());
+                editor67.putBoolean("Next67", btn68.isClickable());
+                editor67.apply();
+                break;
+            case "68":
+                progress = 68;
+                btn68.setClickable(true);
+                btn68.setEnabled(true);
+
+                btn69.setEnabled(true);
+                btn69.setClickable(true);
+
+                resultAfterTest("68");
+
+                SharedPreferences.Editor editor68 = sharedPreferences.edit();
+                editor68.putBoolean("state68", btn68.isClickable());
+                editor68.putBoolean("Next68", btn69.isClickable());
+                editor68.apply();
+                break;
+            case "69":
+                progress = 69;
+                btn69.setClickable(true);
+                btn69.setEnabled(true);
+
+                btn70.setEnabled(true);
+                btn70.setClickable(true);
+
+                resultAfterTest("69");
+
+                SharedPreferences.Editor editor69 = sharedPreferences.edit();
+                editor69.putBoolean("state69", btn69.isClickable());
+                editor69.putBoolean("Next69", btn70.isClickable());
+                editor69.apply();
+                break;
+            case "70":
+                progress = 70;
+                btn70.setClickable(true);
+                btn70.setEnabled(true);
+
+                btn71.setEnabled(true);
+                btn71.setClickable(true);
+
+                resultAfterTest("70");
+
+                SharedPreferences.Editor editor70 = sharedPreferences.edit();
+                editor70.putBoolean("state70", btn70.isClickable());
+                editor70.putBoolean("Next70", btn71.isClickable());
+                editor70.apply();
+                break;
+            case "71":
+                // btn46.setBackgroundColor(Color.GREEN);
+                progress = 71;
+                btn71.setClickable(true);
+                btn71.setEnabled(true);
+
+                btn72.setEnabled(true);
+                btn72.setClickable(true);
+
+                resultAfterTest("71");
+
+                SharedPreferences.Editor editor71 = sharedPreferences.edit();
+                editor71.putBoolean("state71", btn71.isClickable());
+                editor71.putBoolean("Next71", btn72.isClickable());
+                editor71.apply();
+                break;
+            case "72":
+                progress = 72;
+                btn72.setClickable(true);
+                btn72.setEnabled(true);
+
+                btn73.setEnabled(true);
+                btn73.setClickable(true);
+
+                resultAfterTest("72");
+
+                SharedPreferences.Editor editor72 = sharedPreferences.edit();
+                editor72.putBoolean("state72", btn72.isClickable());
+                editor72.putBoolean("Next72", btn73.isClickable());
+                editor72.apply();
+                break;
+            case "73":
+                progress = 73;
+                btn73.setClickable(true);
+                btn73.setEnabled(true);
+
+                btn74.setEnabled(true);
+                btn74.setClickable(true);
+
+                resultAfterTest("73");
+
+                SharedPreferences.Editor editor73 = sharedPreferences.edit();
+                editor73.putBoolean("state73", btn73.isClickable());
+                editor73.putBoolean("Next73", btn74.isClickable());
+                editor73.apply();
+                break;
+            case "74":
+                progress = 74;
+                btn74.setClickable(true);
+                btn74.setEnabled(true);
+
+                btn75.setEnabled(true);
+                btn75.setClickable(true);
+
+                resultAfterTest("74");
+
+                SharedPreferences.Editor editor74 = sharedPreferences.edit();
+                editor74.putBoolean("state74", btn74.isClickable());
+                editor74.putBoolean("Next74", btn75.isClickable());
+                editor74.apply();
+                break;
+            case "75":
+                progress = 75;
+                btn75.setClickable(true);
+                btn75.setEnabled(true);
+
+                btn76.setEnabled(true);
+                btn76.setClickable(true);
+
+                resultAfterTest("75");
+
+                SharedPreferences.Editor editor75 = sharedPreferences.edit();
+                editor75.putBoolean("state75", btn75.isClickable());
+                editor75.putBoolean("Next75", btn76.isClickable());
+                editor75.apply();
+                break;
+            case "76":
+                // btn46.setBackgroun

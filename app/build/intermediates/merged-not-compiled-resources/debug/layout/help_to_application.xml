@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Помощь!"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nАнаграмма:"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отгадайте какое слово было отсортировано, а потом с помощью кнопок с буквами складите это слово. Если слово будет отгадано правильно, уровень автоматически закончится. За правильный ответ вы получите 20 монеток!"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Расшифруйте анаграмму: "
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="За 30 секунд вы должны найти в какой с 4 кнопок отсортированное заданное слово. В случае правильного ответа вы получите 1 монетку, в противном случае, монетка убавится!"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Анаграммы-Загадки: "
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Каждая загадка имеет 2 слова, которые имеют в себе одинаковые буквы, но при этом имеют разный смысл и значения. С помощью условия загадки вы должны отгадать эти два слова и записать их в соответсвующие ячейки. После этого нажмите 'Проверить'!"
+        android:textSize="15dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Несколько ответов: "
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Переставляйте буквы в слове так, чтобы получились другие слова с другим значением и смыслом. Если все слова будут отгаданы правильно, уровень автоматически закончится. Вводить одно слово несколько раз нельзя. За правильный ответ вы получите 30 монеток!"
+        android:textSize="15dp"
+        android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Анаграммы(Фрукты,Ягоды): "
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Отгадайте какое слово было отсортировано, а потом с помощью кнопок с буквами складите это слово. Если слово будет отгадано правильно, уровень автоматически закончится. За правильный ответ вы получите 20 монеток. Слова относятся к темам Фруктов и Ягод!"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Анаграммы(Овощи): "
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Отгадайте какое слово было отсортировано, а потом с помощью кнопок с буквами складите это слово. Если слово будет отгадано правильно, уровень автоматически закончится. За правильный ответ вы получите 20 монеток. Слова относятся к теме Овощей!"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,224 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:2:1-58:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\757a4a558099c3fee9f8121057dee486\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ee52466e2cd6e346702dd1108785076a\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.f0ris.sweetalert:library:1.5.6] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\58018b9aa307d2bf4d7837a6643da2b5\library-1.5.6\AndroidManifest.xml:2:1-13:12
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\55270b7b7ff6a8c5c7869e06747b5393\butterknife-10.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47686752dcfaaf581b8583635eca483a\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\df95be9f5c36f5dbb33ab6d7379bbc5d\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\72232fa6d7605d9852d7a4145a9db9db\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e576b7bfc7a19d7def9b877611148e16\butterknife-runtime-10.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ebf0b4c43f7b389b6a4664cd00ece627\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c48ab3cda54eb750c86f12369402984f\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\73dea4ec4dbe116f89e2857b5ed39a13\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a0d736a14b2a9f0ce74700eeeb27eba2\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\420ce357d974685ed70b25e9c976840f\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\085eb5dfc6c612b688d0200236052ddb\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5b303f488f030c796774cca3b720b4a7\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ca0b4a55447126fe18477c5c8b76a96\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\361f8e0641c655f5b1862d375bdbb028\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dab42f8b385e9884c28da005b2be01e0\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3a8c242f21acc6765a464bcab21f6241\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\f341aa204df7147bcac7d19a8ed5c69b\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b50f3f0a6026a96d801aa84fe47f8a82\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d9ba55c7867a34d62f634a09799239c4\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b571d762c099b8bbee56fbc5c7761227\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bccb059884c04cf90727dfedfeea8b59\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acea6df8a44789e82a26ae1e5d180090\materialish-progress-1.7\AndroidManifest.xml:2:1-13:12
+INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:2:1-58:12
+	package
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:4:5-34
+		INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:2:1-58:12
+		INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:2:1-58:12
+		INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:6:5-56:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ee52466e2cd6e346702dd1108785076a\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ee52466e2cd6e346702dd1108785076a\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.github.f0ris.sweetalert:library:1.5.6] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\58018b9aa307d2bf4d7837a6643da2b5\library-1.5.6\AndroidManifest.xml:11:5-20
+MERGED from [com.github.f0ris.sweetalert:library:1.5.6] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\58018b9aa307d2bf4d7837a6643da2b5\library-1.5.6\AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5b303f488f030c796774cca3b720b4a7\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5b303f488f030c796774cca3b720b4a7\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\361f8e0641c655f5b1862d375bdbb028\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\361f8e0641c655f5b1862d375bdbb028\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acea6df8a44789e82a26ae1e5d180090\materialish-progress-1.7\AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acea6df8a44789e82a26ae1e5d180090\materialish-progress-1.7\AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5b303f488f030c796774cca3b720b4a7\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:12:9-40
+	tools:replace
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:13:9-38
+activity#com.example.anagram.dop_lvl_fruits_vegetables.VegetablesActivityTest
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:14:9-16:52
+	android:screenOrientation
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:16:13-49
+	android:name
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:15:13-77
+activity#com.example.anagram.dop_lvl_fruits_vegetables.FruitsActivityTest
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:17:9-19:52
+	android:screenOrientation
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:19:13-49
+	android:name
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:18:13-73
+activity#com.example.anagram.dop_lvl_fruits_vegetables.VegetablesActivity
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:20:9-22:52
+	android:screenOrientation
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:22:13-49
+	android:name
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:21:13-73
+activity#com.example.anagram.dop_lvl_fruits_vegetables.FruitsActivity
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:23:9-25:52
+	android:screenOrientation
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:24:13-69
+activity#com.example.anagram.SomeMore.SomeMoreTest
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:26:9-28:52
+	android:screenOrientation
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:27:13-50
+activity#com.example.anagram.Riddle.RiddleTest
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:29:9-31:52
+	android:screenOrientation
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:31:13-49
+	android:name
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:30:13-46
+activity#com.example.anagram.SomeMore.Some_Anagram
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:32:9-34:52
+	android:screenOrientation
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:34:13-49
+	android:name
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:33:13-50
+activity#com.example.anagram.Decrypt.decrypt_anagram
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:35:9-37:52
+	android:screenOrientation
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:37:13-49
+	android:name
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:36:13-52
+activity#com.example.anagram.Riddle.anagram_riddle
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:38:9-40:52
+	android:screenOrientation
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:40:13-49
+	android:name
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:39:13-50
+activity#com.example.anagram.Main
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:41:9-43:52
+	android:screenOrientation
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:42:13-33
+activity#com.example.anagram.Test
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:44:9-46:52
+	android:screenOrientation
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:46:13-49
+	android:name
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:45:13-33
+activity#com.example.anagram.StartActivity
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:47:9-55:20
+	android:screenOrientation
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:49:13-49
+	android:name
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:48:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:50:13-54:29
+action#android.intent.action.MAIN
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:51:17-69
+	android:name
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:51:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:53:17-77
+	android:name
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:53:27-74
+uses-sdk
+INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\757a4a558099c3fee9f8121057dee486\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\757a4a558099c3fee9f8121057dee486\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ee52466e2cd6e346702dd1108785076a\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ee52466e2cd6e346702dd1108785076a\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.f0ris.sweetalert:library:1.5.6] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\58018b9aa307d2bf4d7837a6643da2b5\library-1.5.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.f0ris.sweetalert:library:1.5.6] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\58018b9aa307d2bf4d7837a6643da2b5\library-1.5.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\55270b7b7ff6a8c5c7869e06747b5393\butterknife-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\55270b7b7ff6a8c5c7869e06747b5393\butterknife-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47686752dcfaaf581b8583635eca483a\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47686752dcfaaf581b8583635eca483a\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\df95be9f5c36f5dbb33ab6d7379bbc5d\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\df95be9f5c36f5dbb33ab6d7379bbc5d\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\72232fa6d7605d9852d7a4145a9db9db\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\72232fa6d7605d9852d7a4145a9db9db\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e576b7bfc7a19d7def9b877611148e16\butterknife-runtime-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e576b7bfc7a19d7def9b877611148e16\butterknife-runtime-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ebf0b4c43f7b389b6a4664cd00ece627\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ebf0b4c43f7b389b6a4664cd00ece627\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c48ab3cda54eb750c86f12369402984f\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c48ab3cda54eb750c86f12369402984f\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\73dea4ec4dbe116f89e2857b5ed39a13\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\73dea4ec4dbe116f89e2857b5ed39a13\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a0d736a14b2a9f0ce74700eeeb27eba2\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a0d736a14b2a9f0ce74700eeeb27eba2\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\420ce357d974685ed70b25e9c976840f\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\420ce357d974685ed70b25e9c976840f\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\085eb5dfc6c612b688d0200236052ddb\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\085eb5dfc6c612b688d0200236052ddb\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5b303f488f030c796774cca3b720b4a7\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5b303f488f030c796774cca3b720b4a7\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ca0b4a55447126fe18477c5c8b76a96\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7ca0b4a55447126fe18477c5c8b76a96\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\361f8e0641c655f5b1862d375bdbb028\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\361f8e0641c655f5b1862d375bdbb028\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dab42f8b385e9884c28da005b2be01e0\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dab42f8b385e9884c28da005b2be01e0\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3a8c242f21acc6765a464bcab21f6241\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3a8c242f21acc6765a464bcab21f6241\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\f341aa204df7147bcac7d19a8ed5c69b\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\f341aa204df7147bcac7d19a8ed5c69b\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b50f3f0a6026a96d801aa84fe47f8a82\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b50f3f0a6026a96d801aa84fe47f8a82\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d9ba55c7867a34d62f634a09799239c4\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d9ba55c7867a34d62f634a09799239c4\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b571d762c099b8bbee56fbc5c7761227\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b571d762c099b8bbee56fbc5c7761227\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bccb059884c04cf90727dfedfeea8b59\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bccb059884c04cf90727dfedfeea8b59\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acea6df8a44789e82a26ae1e5d180090\materialish-progress-1.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\acea6df8a44789e82a26ae1e5d180090\materialish-progress-1.7\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml

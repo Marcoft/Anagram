@@ -1,0 +1,4 @@
+#Wed Jan 01 14:31:48 EET 2020
+base.0=D\:\\Android_PlayMarket\\Anagram\\app\\build\\intermediates\\transforms\\r8\\debug\\0\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

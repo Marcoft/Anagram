@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Помощь!"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nПриложение 'Анаграммы' состоит с 6 частей :"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Анаграмма "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Расшифруйте Анаграмму "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Анаграммы-Загадки "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Несколько ответов "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Анаграммы(Фрукты,Ягоды) "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Анаграммы(Овощи) "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nАнаграмма: "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Изначально вам доступна эта часть. Проходите уровни и получайте монетки, чтобы открыть другие части!"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nРасшифруйте Анаграмму: "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Изначально эта часть  недоступна. Вы можете ее открыть за 50 монет. Каждые 30 минут в этой части вы можете заработать монеты. Для этого у вас будет 30 секунд!"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nАнаграммы-Загадки: "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Изначально эта часть  недоступна. Вы можете ее открыть за 100 монет. Монеток в этой части заработать нельзя, но вы сможете отгадать интересные загадки с 2 ответами!"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nНесколько ответов: "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Изначально эта часть  недоступна. Данная часть открывается после того, как вы пройдете полностью часть 'Анаграммы'!"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nАнаграммы(Фрукты,Ягоды): "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Изначально вам доступна эта часть. Проходите уровни и получайте монетки, чтобы открыть другие части! Эта часть отличается от 'Анаграм' тем, что все слова этой части односятся к темам Фруктов и Ягод!"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nАнаграммы(Овощи): "
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Изначально вам доступна эта часть. Проходите уровни и получайте монетки, чтобы открыть другие части! Эта часть отличается от 'Анаграм' тем, что все слова этой части односятся к теме Овощей!"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:textColor="@color/Red"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nВ УРОВНЯХ КАЖДОЙ ЧАСТИ ВЫ МОЖЕТЕ НАЖАТЬ НА ОКОШКО ПОМОЩИ, ЧТОБЫ УЗНАТЬ ЧТО НУЖНО ДЕЛАТЬ"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</ScrollView>

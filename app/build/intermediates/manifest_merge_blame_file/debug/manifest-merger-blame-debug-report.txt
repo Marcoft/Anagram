@@ -1,0 +1,115 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.anagram"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:6:5-56:19
+12        android:allowBackup="true"
+12-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5b303f488f030c796774cca3b720b4a7\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:11:9-35
+19        android:theme="@style/AppTheme" >
+19-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:12:9-40
+20        <activity
+20-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:14:9-16:52
+21            android:name="com.example.anagram.dop_lvl_fruits_vegetables.VegetablesActivityTest"
+21-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:15:13-77
+22            android:screenOrientation="portrait" />
+22-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:16:13-49
+23        <activity
+23-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:17:9-19:52
+24            android:name="com.example.anagram.dop_lvl_fruits_vegetables.FruitsActivityTest"
+24-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:18:13-73
+25            android:screenOrientation="portrait" />
+25-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:19:13-49
+26        <activity
+26-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:20:9-22:52
+27            android:name="com.example.anagram.dop_lvl_fruits_vegetables.VegetablesActivity"
+27-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:21:13-73
+28            android:screenOrientation="portrait" />
+28-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:22:13-49
+29        <activity
+29-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:23:9-25:52
+30            android:name="com.example.anagram.dop_lvl_fruits_vegetables.FruitsActivity"
+30-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:24:13-69
+31            android:screenOrientation="portrait" />
+31-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:25:13-49
+32        <activity
+32-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:26:9-28:52
+33            android:name="com.example.anagram.SomeMore.SomeMoreTest"
+33-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:27:13-50
+34            android:screenOrientation="portrait" />
+34-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:28:13-49
+35        <activity
+35-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:29:9-31:52
+36            android:name="com.example.anagram.Riddle.RiddleTest"
+36-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:30:13-46
+37            android:screenOrientation="portrait" />
+37-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:31:13-49
+38        <activity
+38-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:32:9-34:52
+39            android:name="com.example.anagram.SomeMore.Some_Anagram"
+39-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:33:13-50
+40            android:screenOrientation="portrait" />
+40-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:34:13-49
+41        <activity
+41-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:35:9-37:52
+42            android:name="com.example.anagram.Decrypt.decrypt_anagram"
+42-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:36:13-52
+43            android:screenOrientation="portrait" />
+43-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:37:13-49
+44        <activity
+44-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:38:9-40:52
+45            android:name="com.example.anagram.Riddle.anagram_riddle"
+45-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:39:13-50
+46            android:screenOrientation="portrait" />
+46-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:40:13-49
+47        <activity
+47-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:41:9-43:52
+48            android:name="com.example.anagram.Main"
+48-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:42:13-33
+49            android:screenOrientation="portrait" />
+49-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:43:13-49
+50        <activity
+50-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:44:9-46:52
+51            android:name="com.example.anagram.Test"
+51-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:45:13-33
+52            android:screenOrientation="portrait" />
+52-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:46:13-49
+53        <activity
+53-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:47:9-55:20
+54            android:name="com.example.anagram.StartActivity"
+54-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:48:13-42
+55            android:screenOrientation="portrait" >
+55-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:49:13-49
+56            <intent-filter>
+56-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:50:13-54:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:51:17-69
+57-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:51:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:53:17-77
+59-->D:\Android_PlayMarket\Anagram\app\src\main\AndroidManifest.xml:53:27-74
+60            </intent-filter>
+61        </activity>
+62    </application>
+63
+64</manifest>
