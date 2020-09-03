@@ -1,8 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.f0ris.sweetalert:library:1.5.6@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58018b9aa307d2bf4d7837a6643da2b5/library-1.5.6/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58018b9aa307d2bf4d7837a6643da2b5/library-1.5.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03e1c65114eab310a87ba72b5c1d6059/jetified-library-1.5.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03e1c65114eab310a87ba72b5c1d6059/jetified-library-1.5.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03e1c65114eab310a87ba72b5c1d6059/jetified-library-1.5.6/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.f0ris.sweetalert/library/1.5.6/6ee8e524b6c37242f3d2c525a917b762f73cda0e/library-1.5.6-javadoc.jar!/" />
